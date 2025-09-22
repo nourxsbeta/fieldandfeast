@@ -126,6 +126,31 @@ main h2{
     padding-bottom: 2rem;
 }
 
+.box{
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--olive-green);
+    box-shadow: 0 2px 4px var(--dark-charcoal);
+}
+
+.box h3{
+    color: var(--linen);
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+.box ul{
+    list-style-position:inside;
+}
+ 
+.box p,ul {
+    color: var(--linen);
+    font-size: 1rem;
+}
+
 
 
 
