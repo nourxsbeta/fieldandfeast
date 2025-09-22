@@ -1,0 +1,123 @@
+/* CSS BY YOUR NAME */
+/* Nour Sbeta */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS REST */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* ROOT VARIABLES */
+
+:root{
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+
+/* GLOBAL STYLES (mobile first/small) */
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:"Playfair Display";
+    max-width: 100%;
+    margin:0;
+    padding:0;
+    color: var(--dark-charcoal);
+    background-color: var(--soft-white);
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    width: 100%;
+}
+
+header h1{
+    font-size: 100px;
+    font-weight: bold;
+
+}
+
+header h4{
+    font-style: italic;
+    font-size: 30px;
+    padding: 40px;
+}
+
+header img{
+    max-height: 500px;
+    padding: 0px 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--champagne-gold);
+    padding: 15px 0; 
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    align-items: center;
+    color: var(--midnight-blue);
+}
+
+nav ul {
+    display: flex;
+    gap: 348px;
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+
+
+
+
+
+/* MEDIA QUERY (medium) */
+/*@media (max-width=){ */
+
+/* MEDIA QUERY (large) */
+/*@media (max-width=){ */
+
+
+/* MEDIA QUERY (xl) */
+/*@media (max-width=){ */
+
