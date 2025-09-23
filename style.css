@@ -92,14 +92,14 @@ nav{
 nav a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     align-items: center;
     color: var(--midnight-blue);
 }
 
 nav ul {
     display: flex;
-    gap: 100px;
+    gap: 8rem;
     flex-wrap: wrap;
     list-style: none;
     padding: 0; 
@@ -238,9 +238,22 @@ footer{
 }
 
 /* MEDIA QUERY (large) */
-/*@media (max-width=){ */
+@media (min-width: 900px){
+   nav ul{
+    gap: 3rem ;
+   }
+} 
 
 
 /* MEDIA QUERY (xl) */
-/*@media (max-width=){ */
+@media (min-width:1200px){ 
+    main {
+        margin: 10rem 25rem;
+    }
+
+    #images{
+        width: 100%;
+
+    }
+}
 
